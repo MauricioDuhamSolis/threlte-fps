@@ -5,7 +5,7 @@
 	import { World } from '@threlte/rapier';
 	import GameSystems from './GameSystems.svelte';
 	import Helmet from './components/models/Helmet.svelte';
-	import Soldier from './components/models/Soldier.svelte';
+	// import Soldier from './components/models/Soldier.svelte';
 	import DebugGame from './debug/DebugGame.svelte';
 	import GunSystem from './gun/GunSystem.svelte';
 	import Ground from './scene/Ground.svelte';
@@ -24,7 +24,7 @@
 		<Player />
 		<GunSystem />
 		<Helmet />
-		<Soldier />
+		<!-- <Soldier /> -->
 
 		<!-- <AutoColliders>
 			<T.Mesh position.z={-25} position.y={2}>
